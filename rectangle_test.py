@@ -4,15 +4,15 @@ def test_rectangle():
     и считает его периметр и площадь.
     """
     a = 10
-    b = 20
+    b = 30
 
     # Считаем периметр
     perimeter = 2 * (a + b)
-    assert perimeter == 60
+    assert perimeter == 80
 
     # Считаем площадь
     area = a * b
-    assert area == 200
+    assert area == 300
 
     # Выводим результаты
     print(f"Периметр: {perimeter}, Площадь: {area}")
