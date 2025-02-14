@@ -16,5 +16,3 @@ def test_circle():
     length = 2 * math.pi * r
     assert length == 144.51326206513048
 
-    # Выводим результаты в терминале
-    print(f"Площадь: {area}, Длина окружности: {length}")
